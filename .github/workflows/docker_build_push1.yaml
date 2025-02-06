@@ -22,6 +22,6 @@ jobs:
         uses: docker/build-push-action@v6.13.0
         with:
           push: true
-          tags: johnstx/node_ci_cd :1.5.0
+          tags: johnstx/node-ci-cd:1.5.0
 
 
