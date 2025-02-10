@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'git@github.com:dareyio/terraform-aws-pipeline.git'
+    repoURL: 'git@github.com:Johnstx/terraform-aws-pipeline.git'
     path: 'argocd/apps/nginx-app'
-    targetRevision: HEAD
+    targetRevision: feature/testingargocd
   destination:
     server: "https://kubernetes.default.svc"
     namespace: nginx-app
