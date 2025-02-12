@@ -12,7 +12,7 @@ spec:
     helm:
       valueFiles:
       - $values/argocd/helm/values/kube-prometheus-stack-values.yaml
-  - repoURL: 'git@github.com:dareyio/terraform-aws-pipeline.git'
+  - repoURL: 'git@github.com:Johnstx/terraform-aws-pipeline.git'
     targetRevision: main
     ref: values
   syncPolicy:
