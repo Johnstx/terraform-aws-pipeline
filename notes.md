@@ -33,7 +33,7 @@ brew install argocd  <!---- # with homebrew -- run as administrator -->
 # Add a cluster to ArgoCD (optional)
 
 # Deploy an Application
--  argocd app create -f C:\Users\USER\Documents\staxxwrkspace\kubernetes\terraform-aws-pipeline\terraform-aws-pipeline\argocd\apps\basic-app.yaml
+- argocd app create -f /mnt/c/Users/USER/Documents/staxxwrkspace/kubernetes/terraform-aws-pipeline/terraform-aws-pipeline/argocd/apps/basic-app.yaml
 
 
 ### kube-state-metrics
